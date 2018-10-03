@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="new-game">
+            <button id="btn-new-game">NEW GAME</button>
+            <br/>
+            <!-- <button id="btn-new-game">NEW GAME</button><br/>
+            <button id="btn-new-game">NEW GAME</button> -->
+        </div>
+        <div class="start">
+            <p id="txt-area">Start new game</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="btns-row-one">
+            <button id="btn0" value="0" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+            <button id="btn1" value="1" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+            <button id="btn2" value="2" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+        </div>
+        <div class="btns-row-two">
+            <button id="btn3" value="3" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+            <button id="btn4" value="4" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+            <button id="btn5" value="5" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+        </div>
+        <div class="btns-row-three">
+            <button id="btn6" value="6" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+            <button id="btn7" value="7" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+            <button id="btn8" value="8" disabled="true" onclick="fillTable(this.value, this.id)">?</button>
+        </div>
+    </div>
+
+    <!-- <button id="btn-reset" disabled="true">Reset</button> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
